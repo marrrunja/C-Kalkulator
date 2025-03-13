@@ -28,10 +28,9 @@
               "RelativeDocumentMoniker": "Kalkulator\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Kalkulator\\Kalkulator\\Form1.cs",
               "RelativeToolTip": "Kalkulator\\Form1.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAuwBYBAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABIBAAAAAAAAAAAuwBYBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T07:37:49.138Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -43,7 +42,8 @@
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Kalkulator\\Kalkulator\\Form1.cs [Design]",
               "RelativeToolTip": "Kalkulator\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:37:37.019Z"
+              "WhenOpened": "2025-03-04T07:37:37.019Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

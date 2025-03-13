@@ -112,11 +112,11 @@ namespace Kalkulator
         }
         private void clearData()
         {
-            strDisplay = "";
-            temp = 0.0;
-            operasi = "";
-            tampungan = "";
-            displayBox.Text = "0";
+            strDisplay = "0";
+            //temp = 0.0;
+            //operasi = "";
+            //tampungan = "";
+            displayBox.Text = strDisplay;
         }
 
         private void displayBox_TextChanged(object sender, EventArgs e)
@@ -262,11 +262,10 @@ namespace Kalkulator
                 displayBox.Text = strDisplay;
             }
         }
-
         // tekan tombol koma
         private void buttonDot_Click(object sender, EventArgs e)
         {
-            if(strDisplay == "")
+            if (strDisplay == "")
             {
                 return;
             }
@@ -276,7 +275,10 @@ namespace Kalkulator
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
-            clearData();
+            strDisplay = "";
+            displayBox.Text = "0";
+            temp = 0.0;
+            operasi = "";
         }
     }
 }
