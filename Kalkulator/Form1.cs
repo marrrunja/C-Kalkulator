@@ -189,7 +189,7 @@ namespace Kalkulator
 
         private void buttonPlus_Click(object sender, EventArgs e)
         {
-            temp = Convert.ToDouble(displayBox.Text);
+             temp = Convert.ToDouble(displayBox.Text);
             operasi = "+";
             strDisplay = "";
             displayBox.Text = strDisplay;
